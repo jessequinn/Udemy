@@ -1,0 +1,21 @@
+/* universal selector */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+/* root */
+/* global control using rem */
+/* use % rather than px */
+html {
+  // This defines what 1rem is
+  font-size: 62.5%;
+}
+
+/* body element selector */
+body {
+  box-sizing: border-box;
+}
