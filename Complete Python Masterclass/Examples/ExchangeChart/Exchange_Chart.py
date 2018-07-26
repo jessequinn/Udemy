@@ -1,5 +1,4 @@
 # Downloaded from https://learnprogramming.academy/pydownload.html
-
 import datetime
 
 try:
