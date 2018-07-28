@@ -10,5 +10,6 @@ print(p)
 for i in p:
     print(i)
 
-# and see if you can work out what will be printed before running the program. If you are unsure, use a
-# for loop to print out the values of o to see why p returns what it does.
+# and see if you can work out what will be printed before running the program.
+# If you are unsure, use a for loop to print out the values of o to see
+# why p returns what it does.

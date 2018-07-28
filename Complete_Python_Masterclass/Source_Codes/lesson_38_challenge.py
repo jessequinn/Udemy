@@ -25,8 +25,8 @@
 # you could use other techniques (such as splitting the string up), that's not the
 # approach we're looking for here.
 
-input_prompt = ("Please enter an IP address. An IP address consists of 4 numbers, separated from each other with a full stop: ")
-
+input_prompt = ("Please enter an IP address. An IP address consists of 4 numbers, "
+                "separated from each other with a full stop: ")
 ipAddress = input(input_prompt)
 if ipAddress[-1] != '.':
     ipAddress += '.'
