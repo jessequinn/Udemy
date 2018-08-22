@@ -31,4 +31,4 @@ Packages covered in the course:
 [seaborn](https://seaborn.pydata.org)
 
 Example plots with [seaborn](https://seaborn.pydata.org):
-![seaborn scatter plot](img/seaborn_scatter.png){:height="36px" width="36px"}
+![seaborn scatter plot](img/seaborn_scatter.png "Seaborn Scatter Plot")
