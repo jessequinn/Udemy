@@ -29,6 +29,8 @@ Packages covered in the course:
 [pandas](http://pandas.pydata.org)
 [matplotlib](http://www.matplotlib.org/)
 [seaborn](https://seaborn.pydata.org)
+[plotly-2.7.0](https://plot.ly)
+[cufflinks](https://github.com/santosjorge/cufflinks)
 
 Example plots with [seaborn](https://seaborn.pydata.org):
 
