@@ -31,4 +31,6 @@ Packages covered in the course:
 [seaborn](https://seaborn.pydata.org)
 
 Example plots with [seaborn](https://seaborn.pydata.org):
+
 ![seaborn scatter plot](img/seaborn_scatter.png "Seaborn Scatter Plot")
+![seaborn regression plot](img/seaborn_regression.png "Seaborn Regression Plot")
