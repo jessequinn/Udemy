@@ -30,7 +30,5 @@ Packages covered in the course:
 [matplotlib](http://www.matplotlib.org/)
 [seaborn](https://seaborn.pydata.org)
 
-
 Example plots with [seaborn](https://seaborn.pydata.org):
-![seaborn scatter plot](img/seaborn_scatter.png "Seaborn Scatter Plot"){ width=50% }
-
+![seaborn scatter plot](img/seaborn_scatter.png "Seaborn Scatter Plot"){:width="50%"}
