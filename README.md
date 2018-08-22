@@ -20,4 +20,4 @@ Course uses [jupyter](http://jupyter.org/install).
 
 run `jupyter notebook` within the course directory.
 
-I use [Homebrew](#) to install [pyenv](https://anil.io/blog/python/pyenv/using-pyenv-to-install-multiple-python-versions-tox/).
+I use [Homebrew](#) to install [pyenv](https://anil.io/blog/python/pyenv/using-pyenv-to-install-multiple-python-versions-tox/) that controls my python environment.
