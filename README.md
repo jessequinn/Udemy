@@ -32,5 +32,5 @@ Packages covered in the course:
 
 
 Example plots with [seaborn](https://seaborn.pydata.org):
-![seaborn scatter plot](img/seaborn_scatter.png =250x "Seaborn Scatter Plot")
+![seaborn scatter plot](img/seaborn_scatter.png "Seaborn Scatter Plot"){ width=50% }
 
