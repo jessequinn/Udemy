@@ -147,13 +147,11 @@ s3.set(xlabel='Month', ylabel='Day of Week')
 
 fig.tight_layout()
 fig.suptitle("Emergency - 911 Calls - Montgomery County, PA")
-fig.subplots_adjust(top=.9)
-plt.show() 
+fig.subplots_adjust(top=0.9)
+plt.show()
 
 fig.savefig("seaborn_example1.png")
 # s5.savefig("seaborn_lmplot_example.png")
-
 ```
-
 
 ![capstone project](img/seaborn_example1.png "Capstone Project")
