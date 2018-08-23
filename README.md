@@ -36,3 +36,4 @@ Example plots with [seaborn](https://seaborn.pydata.org):
 
 ![seaborn scatter plot](img/seaborn_scatter.png "Seaborn Scatter Plot")
 ![seaborn regression plot](img/seaborn_regression.png "Seaborn Regression Plot")
+![capstone project](img/seaborn_example1.png "Capstone Project")
