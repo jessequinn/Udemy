@@ -3,6 +3,7 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.datasets import load_boston
+from sklearn import metrics
 
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -55,7 +56,24 @@ print(cdf)
 # boston.keys()
 # print(boston['DESCR'])
 
+predictions = lrm.predict(X_test)
 
+print('*' * 40)
+# house price predictions
+print(predictions)
+
+# check if prediction is good
+# plt.scatter(y_test, predictions)
+
+# histogram of the residuals
+# sns.distplot((y_test-predictions))
+
+# look at various types of error
+print('*' * 40)
+print('Mean Absolute Error: {}'.format(metrics.mean_absolute_error(y_test, predictions)))
+print('Mean Squared Error: {}'.format(metrics.mean_squared_error(y_test, predictions)))
+print('Root Mean Squared Error: {}'.format(np.sqrt(metrics.mean_squared_error(y_test, predictions))))
+print('*' * 40)
 
 # tighten up layout
 plt.tight_layout()
