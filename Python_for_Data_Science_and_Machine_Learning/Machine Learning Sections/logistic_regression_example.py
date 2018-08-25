@@ -154,16 +154,16 @@ logrm = LogisticRegression()
 logrm.fit(X_train, y_train)
 
 predictions = logrm.predict(X_test)
-prediction = pd.DataFrame(predictions, columns=[
+predictions = pd.DataFrame(predictions, columns=[
                           'predictions'])
-prediction.reset_index(inplace=True)
+predictions.reset_index(inplace=True)
 # prediction = pd.concat([test.PassengerId, prediction], axis=1)
-prediction.columns = ['PassengerId', 'Survived']
-prediction['PassengerId'] += 892
+predictions.columns = ['PassengerId', 'Survived']
+predictions['PassengerId'] += 892
 
-print(prediction.head(5))
-print(prediction.tail(5))
-prediction.to_csv('tmp/prediction.csv', index=False)
+print(predictions.head(5))
+print(predictions.tail(5))
+predictions.to_csv('tmp/predictions.csv', index=False)
 
 
 # print(classification_report(y_test, predictions))
