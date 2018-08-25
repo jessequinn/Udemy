@@ -53,16 +53,16 @@ bank_stocks = pd.concat([BAC, C, GS, JPM, MS, WFC], axis=1, keys=tickers)
 bank_stocks.columns.names = ['Bank Ticker', 'Stock Info']
 
 # heatmap plot of closing prices
-close_corr = bank_stocks.xs(key='Close', axis=1, level='Stock Info').corr()
-plot([go.Heatmap(z=close_corr.values.tolist(), colorscale='rdylbu')], image='png', filename='tmp/heatmap_example.html')
+# close_corr = bank_stocks.xs(key='Close', axis=1, level='Stock Info').corr()
+# plot([go.Heatmap(z=close_corr.values.tolist(), colorscale='rdylbu')], image='png', filename='tmp/heatmap_example.html')
 
 # candlestick plot of open, close, low, high for 2015
-plot([go.Candlestick(x=BAC.loc['2015-01-01':'2016-01-01'].index.get_level_values('Date').tolist(),
-                     open=BAC.Open.values.tolist(),
-                     high=BAC.High.values.tolist(),
-                     low=BAC.Low.values.tolist(),
-                     close=BAC.Close.values.tolist())], image='png', filename='tmp/candlestick_example.html')
+# plot([go.Candlestick(x=BAC.loc['2015-01-01':'2016-01-01'].index.get_level_values('Date').tolist(),
+#                      open=BAC.Open.values.tolist(),
+#                      high=BAC.High.values.tolist(),
+#                      low=BAC.Low.values.tolist(),
+#                      close=BAC.Close.values.tolist())], image='png', filename='tmp/candlestick_example.html')
 
-# fig = MS['Close'].loc['2015-01-01':'2016-01-01'].ta_plot(study='sma',periods=[13,21,55],title='Simple Moving Averages')
+MS['Close'].loc['2015-01-01':'2016-01-01'].ta_plot(study='sma',periods=[13,21,55],title='Simple Moving Averages')
+
 # BAC['Close'].loc['2015-01-01':'2016-01-01'].ta_plot(study='boll')
-# plotly.offline.plot(fig, image='png')
