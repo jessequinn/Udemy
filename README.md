@@ -1177,8 +1177,8 @@ for i in range(1, plt.gcf().number + 1):
 
 ![k means project](img/kmeans_figure_1.png "K Means Project")
 ![k means project](img/kmeans_figure_2.png "K Means Project")
-![k means project](img/kmeans_figure_1.png "K Means Project")
-![k means project](img/kmeans_figure_2.png "K Means Project")
+![k means project](img/kmeans_figure_3.png "K Means Project")
+![k means project](img/kmeans_figure_4.png "K Means Project")
 
 </p>
 </details>
