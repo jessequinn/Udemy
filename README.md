@@ -537,8 +537,8 @@ fig.savefig("machine_learning_lrm.png")
 </p>
 </details>
 
-
-#### Kapple Titanic Project Competition
+<details><summary>Kapple Titanic Project Competition</summary>
+<p>
 
 ```python
 import pandas as pd
@@ -726,7 +726,11 @@ fig.savefig("machine_learning_logrm.png")
 
 ![logistic regresionn project](img/machine_learning_logrm.png "Logistic Regression Project")
 
-#### Logistic Regression Project
+</p>
+</details>
+
+<details><summary>Logistic Regression Project</summary>
+<p>
 
 ```python
 import pandas as pd
@@ -795,7 +799,11 @@ sns_plot.savefig("machine_learning_logrm2.png")
 
 ![logistic regresionn project](img/machine_learning_logrm2.png "Logistic Regression Project")
 
-#### KNN Project
+</p>
+</details>
+
+<details><summary>KNN Project</summary>
+<p>
 
 ```python
 import pandas as pd
@@ -879,7 +887,11 @@ fig.savefig("machine_learning_knn2.png")
 
 ![KNN project](img/machine_learning_knn2.png "KNN Project")
 
-#### Decision Tree Project
+</p>
+</details>
+
+<details><summary>Decision Tree Project</summary>
+<p>
 
 ```python
 import pandas as pd
@@ -994,7 +1006,11 @@ for i in range(1, 6):
 ![decision tree project](img/tree_project_figure_4.png "Decision Tree Project")
 ![decision tree project](img/tree_project_figure_5.png "Decision Tree Project")
 
-#### Support Vector Machines Project
+</p>
+</details>
+
+<details><summary>Support Vector Machines Project</summary>
+<p>
 
 ```python
 import pandas as pd
@@ -1074,3 +1090,6 @@ for i in range(1, 3):
 
 ![svm project](img/svm_project_figure_1.png "SVM Project")
 ![svm project](img/svm_project_figure_2.png "SVM Project")
+
+</p>
+</details>
