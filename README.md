@@ -188,9 +188,8 @@ fig.savefig("seaborn_example1.png")
 </p>
 </details>
 
-
-
-#### Finance Project:
+<details><summary>Finance Project</summary>
+<p>
 
 ```Python
 import numpy as np
@@ -348,7 +347,11 @@ fig.savefig("seaborn_example2.png")
 
 ![finance project](img/seaborn_example2.png "Finance Project")
 
-#### Finance Project Option
+</p>
+</details>
+
+<details><summary>Finance Project Option</summary>
+<p>
 
 ```python
 import numpy as np
@@ -424,11 +427,15 @@ plot([go.Candlestick(x=BAC.loc['2015-01-01':'2016-01-01'].index.get_level_values
 ![finance project option](img/plotly_example1.png "Finance Project Option")
 ![finance project option](img/plotly_example2.png "Finance Project Option")
 
+</p>
+</details>
+
 ### Machine Learning
 
 This part of the course was based upon [Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/).
 
-#### Linear Regression Project
+<details><summary>Linear Regression Project</summary>
+<p>
 
 ```python
 import pandas as pd
@@ -526,6 +533,10 @@ fig.savefig("machine_learning_lrm.png")
 ```
 
 ![linear regresionn project](img/machine_learning_lrm.png "Linear Regression Project")
+
+</p>
+</details>
+
 
 #### Kapple Titanic Project Competition
 
