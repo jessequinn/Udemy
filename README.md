@@ -40,10 +40,8 @@ Example plots with [seaborn](https://seaborn.pydata.org):
 
 ### Python Graphing and Data Processing Introduction
 
-<details><summary>CLICK ME</summary>
+<details><summary>Capstone Project</summary>
 <p>
-
-#### Capstone Project:
 
 ```python
 import numpy as np
