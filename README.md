@@ -38,21 +38,10 @@ Example plots with [seaborn](https://seaborn.pydata.org):
 ![seaborn regression plot](img/seaborn_regression.png "Seaborn Regression Plot")
 
 
-## collapsible markdown?
+### Python Graphing and Data Processing Introduction
 
 <details><summary>CLICK ME</summary>
 <p>
-
-#### yes, even hidden code blocks!
-
-```python
-print("hello world!")
-```
-
-</p>
-</details>
-
-### Python Graphing and Data Processing Introduction
 
 #### Capstone Project:
 
@@ -197,6 +186,11 @@ fig.savefig("seaborn_example1.png")
 ```
 
 ![capstone project](img/seaborn_example1.png "Capstone Project")
+
+</p>
+</details>
+
+
 
 #### Finance Project:
 
