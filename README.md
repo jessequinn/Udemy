@@ -37,6 +37,21 @@ Example plots with [seaborn](https://seaborn.pydata.org):
 ![seaborn scatter plot](img/seaborn_scatter.png "Seaborn Scatter Plot")
 ![seaborn regression plot](img/seaborn_regression.png "Seaborn Regression Plot")
 
+
+## collapsible markdown?
+
+<details><summary>CLICK ME</summary>
+<p>
+
+#### yes, even hidden code blocks!
+
+```python
+print("hello world!")
+```
+
+</p>
+</details>
+
 ### Python Graphing and Data Processing Introduction
 
 #### Capstone Project:
