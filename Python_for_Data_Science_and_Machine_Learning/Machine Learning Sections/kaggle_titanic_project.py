@@ -41,7 +41,7 @@ print('-'*25)
 # For example, running this (by clicking run or pressing Shift+Enter) will list the files in the input directory
 
 from subprocess import check_output
-print(check_output(["ls", "tmp"]).decode("utf8"))
+print(check_output(["ls", "./tmp"]).decode("utf8"))
 
 # Any results you write to the current directory are saved as output.
 
@@ -60,7 +60,7 @@ import matplotlib as mpl
 import matplotlib.pyplot as plt
 import matplotlib.pylab as pylab
 import seaborn as sns
-from pandas.tools.plotting import scatter_matrix
+# from pandas.tools.plotting import scatter_matrix
 
 # Configure Visualization Defaults
 # %matplotlib inline = show plots in Jupyter Notebook browser
@@ -70,12 +70,12 @@ sns.set_style('white')
 pylab.rcParams['figure.figsize'] = 12, 8
 
 # import data from file: https://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_csv.html
-data_raw = pd.read_csv('tmp/train.csv')
+data_raw = pd.read_csv('./tmp/train.csv')
 
 # a dataset should be broken into 3 splits: train, test, and (final) validation
 # the test file provided is the validation file for competition submission
 # we will split the train set into train and test data in future sections
-data_val = pd.read_csv('tmp/test.csv')
+data_val = pd.read_csv('./tmp/test.csv')
 
 # to play with our data we'll create a copy
 # remember python assignment or equal passes by reference vs values, so we use the copy function: https://stackoverflow.com/questions/46327494/python-pandas-dataframe-copydeep-false-vs-copydeep-true-vs
