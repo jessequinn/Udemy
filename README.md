@@ -1470,7 +1470,8 @@ for i in range(1, plt.gcf().number + 1):
 
 <details><summary>Big Data and Spark</summary>
 <p>
-using [homebrew](#) the following commands were used to install a scala/SPARK: `brew install scala` and `brew install apache-spark`
+
+Using [HOMEBREW](https://brew.sh) the following commands were used to install a scala/SPARK: `brew install scala` and `brew install apache-spark`
 
 ```python
 from pyspark import SparkContext
