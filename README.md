@@ -1468,87 +1468,87 @@ for i in range(1, plt.gcf().number + 1):
 </p>
 </details>
 
-<details><summary>Big Data and Spark</summary>
+<details><summary>Neutral Network / TensorFlow</summary>
 <p>
 
-Using [HOMEBREW](https://brew.sh) the following commands were used to install a scala/SPARK: `brew install scala` and `brew install apache-spark`
-
 ```python
-from pyspark import SparkContext
+import tensorflow as tf
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import classification_report, confusion_matrix
+from sklearn.preprocessing import StandardScaler
+from sklearn.ensemble import RandomForestClassifier
 
-sc = SparkContext()
+# turn on edges
+plt.rcParams["patch.force_edgecolor"] = True
 
-# write file in jupyter
-# %%writefile example.txt
-# first line
-# second line
-# third line
-# fourth line
+df = pd.read_csv("./bank_note_data.csv")
 
-# RDD
-textFile = sc.textFile('./example.txt')
+# plt.figure(1)
+sns.countplot(x='Class', data=df)
 
-# actions
-# print(textFile.count())
-# print(textFile.first())
+# plt.figure(2)
+sns.pairplot(data=df, hue='Class')
 
-# transformation
-secfind = textFile.filter(lambda line: 'second' in line)
-# print(secfind)
-# print(secfind.collect())
-# print(secfind.count())
+scaler = StandardScaler()
+scaler.fit(df.drop('Class', axis=1))
 
-# RDD
-textFile2 = sc.textFile('./example2.txt')
-words = textFile2.map(lambda line: line.split())
+scaled_features = scaler.transform(df.drop('Class', axis=1))
 
-# print(words.collect())
+df_feat = pd.DataFrame(scaled_features, columns=df.columns[:-1])
 
-# print(textFile2.flatMap(lambda line: line.split()).collect())
+y = df['Class']
+X = df_feat
 
-textFile3 = sc.textFile('./services.txt')
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3)
 
-# print(textFile3.take(2))
-# print(textFile3.map(lambda line: line.split()).take(3))
+feat_cols = []
 
-# print(textFile3.map(lambda line: line[1:]
-                    # if line[0] == '#' else line).collect())
-clean = textFile3.map(lambda line: line[1:] if line[0] == '#' else line)
-clean = clean.map(lambda line: line.split())
-# print(clean.collect())
+for col in X.columns:
+    feat_cols.append(tf.feature_column.numeric_column(col))
 
-# print(clean.map(lambda line: (line[3], line[-1])).collect())
-pairs = clean.map(lambda line: (line[3], line[-1]))
-rekey = pairs.reduceByKey(lambda amt1, amt2: float(amt1) + float(amt2))
-# print(rekey.collect())
+input_func = tf.estimator.inputs.pandas_input_fn(
+    x=X_train, y=y_train, batch_size=20, num_epochs=5, shuffle=True)
 
-# step 1 Grab (state, amount)
-step1 = clean.map(lambda lst: (lst[3], lst[-1]))
+classifier = tf.estimator.DNNClassifier(
+    hidden_units=[10, 20, 10], n_classes=2, feature_columns=feat_cols)
 
-# step 2 reduce by key
-step2 = step1.reduceByKey(lambda amt1, amt2: float(amt1) + float(amt2))
+classifier.train(input_fn=input_func, steps=500)
 
-# step 3 remove state amount titles
-step3 = step2.filter(lambda x: not x[0] == 'State')
+pred_fn = tf.estimator.inputs.pandas_input_fn(
+    x=X_test, batch_size=len(X_test), shuffle=False)
 
-# step 4 sort results by amount
-step4 = step3.sortBy(lambda stAmount: stAmount[1], ascending=False)
+# generator
+predictions = list(classifier.predict(input_fn=pred_fn))
 
-print(step4.collect())
+final_preds = []
 
-x = ['ID', 'State', 'Amount']
+for pred in predictions:
+    final_preds.append(pred['class_ids'][0])
 
-def func1(lst):
-    return lst[-1]
+print(confusion_matrix(y_test, final_preds))
 
-# tuple unpacking
-def func2(id_st_amt):
-    # unpack values
-    (id, st, amt) = id_st_amt
-    return amt
+print(classification_report(y_test, final_preds))
 
-print(func1(x))
-print(func2(x))
+rfc = RandomForestClassifier(n_estimators=200)
+rfc.fit(X_train, y_train)
+
+rfc_preds = rfc.predict(X_test)
+
+print(confusion_matrix(y_test, final_preds))
+
+print(classification_report(y_test, final_preds))
+
+# save plots
+for i in range(1, plt.gcf().number + 1):
+    plt.figure(i)
+    # tighten up layout
+    plt.tight_layout()
+    plt.savefig('tensorflow_figure_' + str(i) + '.png')
+    plt.close()
 ```
 
 </p>
