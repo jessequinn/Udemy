@@ -1,4 +1,4 @@
-from enemy import Enemy, Troll, Vampyre, VampyreKing
+from lesson_136_enemy import Enemy, Troll, Vampyre, VampyreKing
 
 dracula = VampyreKing("Dracula")
 print(dracula)
