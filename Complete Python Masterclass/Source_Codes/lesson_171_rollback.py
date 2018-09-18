@@ -2,7 +2,7 @@ import sqlite3
 import datetime
 import pytz
 
-db = sqlite3.connect("accounts.sqlite")
+db = sqlite3.connect("lesson_171_accounts.sqlite")
 db.execute("CREATE TABLE IF NOT EXISTS accounts (name TEXT PRIMARY KEY NOT NULL, balance INTEGER NOT NULL)")
 db.execute("CREATE TABLE IF NOT EXISTS history (time TIMESTAMP NOT NULL,"
            " account TEXT NOT NULL, amount INTEGER NOT NULL, PRIMARY KEY (time, account))")
@@ -68,6 +68,7 @@ class Account(object):
 
     def show_balance(self):
         print("Balance on account {} is {:.2f}".format(self.name, self._balance / 100))
+
 
 if __name__ == '__main__':
     john = Account("John")

@@ -1,8 +1,7 @@
 import sqlite3
 import pytz
 
-
-db = sqlite3.connect("accounts.sqlite", detect_types=sqlite3.PARSE_DECLTYPES)
+db = sqlite3.connect("lesson_171_accounts.sqlite", detect_types=sqlite3.PARSE_DECLTYPES)
 
 for row in db.execute("SELECT * FROM history"):
     utc_time = row[0]
