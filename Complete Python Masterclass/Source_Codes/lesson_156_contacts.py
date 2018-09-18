@@ -1,6 +1,6 @@
 import sqlite3
 
-db = sqlite3.connect("contacts.sqlite")
+db = sqlite3.connect("lesson_155_contacts.sqlite")
 
 update_sql = "UPDATE contacts SET email = 'update@update.com'"
 update_cursor = db.cursor()
