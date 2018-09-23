@@ -1,0 +1,51 @@
+2018-09-22 13:19:16.370 -03 [34985] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2018-09-22 13:19:16.370 -03 [34985] LOG:  listening on IPv6 address "::1", port 5432
+2018-09-22 13:19:16.370 -03 [34985] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2018-09-22 13:19:16.381 -03 [34986] LOG:  database system was shut down at 2018-09-22 13:18:39 -03
+2018-09-22 13:19:16.383 -03 [34985] LOG:  database system is ready to accept connections
+2018-09-22 13:29:45.560 -03 [35004] ERROR:  syntax error at or near "cat" at character 1
+2018-09-22 13:29:45.560 -03 [35004] STATEMENT:  cat /etc/passwd
+	exit
+	quit
+	quit()
+	help
+	-h
+	.quit
+	help
+	"help"
+	;
+2018-09-22 13:39:05.422 -03 [35437] FATAL:  role "`jessequinn`" does not exist
+2018-09-22 13:39:10.792 -03 [35450] FATAL:  database "`new_database`" does not exist
+2018-09-22 13:47:44.998 -03 [35680] ERROR:  syntax error at or near "," at character 28
+2018-09-22 13:47:44.998 -03 [35680] STATEMENT:  INSERT INTO store VALUES (?,?,?)
+2018-09-22 13:51:34.681 -03 [35793] ERROR:  operator does not exist: text =? at character 29
+2018-09-22 13:51:34.681 -03 [35793] HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.
+2018-09-22 13:51:34.681 -03 [35793] STATEMENT:  DELETE FROM store WHERE item=?
+2018-09-22 13:52:37.518 -03 [35834] ERROR:  operator does not exist: text =? at character 29
+2018-09-22 13:52:37.518 -03 [35834] HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.
+2018-09-22 13:52:37.518 -03 [35834] STATEMENT:  DELETE FROM store WHERE item=?
+2018-09-22 13:59:19.734 -03 [36001] ERROR:  could not create unique index "store_item_key"
+2018-09-22 13:59:19.734 -03 [36001] DETAIL:  Key (item)=(Coffee Cup) is duplicated.
+2018-09-22 13:59:19.734 -03 [36001] STATEMENT:  ALTER TABLE store ADD UNIQUE (item)
+2018-09-22 13:59:49.049 -03 [36038] ERROR:  duplicate key value violates unique constraint "store_item_key"
+2018-09-22 13:59:49.049 -03 [36038] DETAIL:  Key (item)=(Coffee Cup) already exists.
+2018-09-22 13:59:49.049 -03 [36038] STATEMENT:  INSERT INTO store VALUES ('Coffee Cup',4,3.0)
+2018-09-22 14:00:36.391 -03 [36064] ERROR:  duplicate key value violates unique constraint "store_item_key"
+2018-09-22 14:00:36.391 -03 [36064] DETAIL:  Key (item)=(Water Glass) already exists.
+2018-09-22 14:00:36.391 -03 [36064] STATEMENT:  INSERT INTO store VALUES ('Water Glass',10,5.0)
+2018-09-22 14:01:25.263 -03 [36090] ERROR:  duplicate key value violates unique constraint "store_item_key"
+2018-09-22 14:01:25.263 -03 [36090] DETAIL:  Key (item)=(Water Glass) already exists.
+2018-09-22 14:01:25.263 -03 [36090] STATEMENT:  INSERT INTO store VALUES ('Water Glass',10,5.0)
+2018-09-22 14:01:25.269 -03 [36091] ERROR:  duplicate key value violates unique constraint "store_item_key"
+2018-09-22 14:01:25.269 -03 [36091] DETAIL:  Key (item)=(Coffee Cup) already exists.
+2018-09-22 14:01:25.269 -03 [36091] STATEMENT:  INSERT INTO store VALUES ('Coffee Cup',4,3.0)
+2018-09-22 14:02:04.872 -03 [36114] ERROR:  duplicate key value violates unique constraint "store_item_key"
+2018-09-22 14:02:04.872 -03 [36114] DETAIL:  Key (item)=(Coffee Cup) already exists.
+2018-09-22 14:02:04.872 -03 [36114] STATEMENT:  INSERT INTO store VALUES ('Coffee Cup',4,3.0)
+2018-09-22 15:20:17.406 -03 [37222] ERROR:  duplicate key value violates unique constraint "store_item_key"
+2018-09-22 15:20:17.406 -03 [37222] DETAIL:  Key (item)=(Coffee Cup) already exists.
+2018-09-22 15:20:17.406 -03 [37222] STATEMENT:  INSERT INTO store VALUES ('Coffee Cup',4,3.0)
+2018-09-22 15:33:30.430 -03 [34985] LOG:  received smart shutdown request
+2018-09-22 15:33:30.432 -03 [34985] LOG:  worker process: logical replication launcher (PID 34992) exited with exit code 1
+2018-09-22 15:33:30.432 -03 [34987] LOG:  shutting down
+2018-09-22 15:33:30.437 -03 [34985] LOG:  database system is shut down

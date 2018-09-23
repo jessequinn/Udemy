@@ -1,0 +1,4 @@
+([('frontend',
+   '/Users/jessequinn/github/Udemy/The Python Mega '
+   'Course/Assignment5/dist/frontend',
+   'EXECUTABLE')],)
