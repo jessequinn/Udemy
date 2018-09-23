@@ -151,6 +151,4 @@ sftp-config.json
 
 # python
 __pycache__
-*.sqlite
-*.db
-*.pickle
+.idea
