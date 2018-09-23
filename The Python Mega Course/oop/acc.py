@@ -25,14 +25,22 @@ class Account:
 
 
 class Checking(Account):
+    """
+    This class generates checking account objects
+    """
+
+    type = "checking"
+
     def __init__(self, fee=0):
         self.fee = fee
 
         Account.__init__(self, fp='checkings.txt')
 
-    def transfer(self, amount):
-        self._balance = self._balance - amount - self.fee
-
+    def transfer(self, amount, type):
+        if type == '-':
+            self._balance = self._balance - amount - self.fee
+        else:
+            self._balance = self._balance + amount - self.fee
 
 if __name__ == '__main__':
     acc = Account()
@@ -51,7 +59,9 @@ if __name__ == '__main__':
     print(acc)
     print(chk)
 
-    chk.transfer(100)
+    chk.transfer(100, '+')
     chk.commit()
 
     print(chk)
+
+    print(chk.__doc__)
