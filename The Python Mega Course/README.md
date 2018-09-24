@@ -9,3 +9,7 @@ Build 10 real world applications in python.
 * Application 4: Build a Website with Python and Flask
 * Application 5: Build a Desktop Database Application
 * Application 6: Build a Webcam Motion Detector
+* Application 7: Scrape Real Estate Property Data from the Web
+* Application 8: Build a Web-based Financial Graph
+* Application 9: Build a Data Collector Web App with PostGreSQL and Flask
+*
