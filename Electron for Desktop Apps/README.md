@@ -2,3 +2,4 @@
 ---
 
 * Application 1: Video Info
+* Application 2: Todos List
