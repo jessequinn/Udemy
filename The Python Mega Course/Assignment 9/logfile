@@ -1,0 +1,9 @@
+2018-09-24 10:33:58.760 -03 [89780] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2018-09-24 10:33:58.760 -03 [89780] LOG:  listening on IPv6 address "::1", port 5432
+2018-09-24 10:33:58.761 -03 [89780] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2018-09-24 10:33:58.772 -03 [89781] LOG:  database system was shut down at 2018-09-24 10:33:54 -03
+2018-09-24 10:33:58.774 -03 [89780] LOG:  database system is ready to accept connections
+2018-09-24 11:05:53.305 -03 [90594] ERROR:  relation "data" does not exist at character 13
+2018-09-24 11:05:53.305 -03 [90594] STATEMENT:  INSERT INTO data (email_, height_) VALUES (NULL, NULL) RETURNING data.id
+2018-09-24 11:07:24.870 -03 [90631] ERROR:  relation "data" does not exist at character 13
+2018-09-24 11:07:24.870 -03 [90631] STATEMENT:  INSERT INTO data (email_, height_) VALUES ('test@test.com', '65') RETURNING data.id

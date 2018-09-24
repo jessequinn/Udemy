@@ -38,11 +38,11 @@ if __name__ == '__main__':
 
         output = return_dict_value(data, word)
 
-        if len(output) > 1:
+        if len(output) > 1 and not type(output) is str:
             for o in output:
                 print(o)
         else:
-            print(output[0])
+            print(output)
 
     except KeyError:
         print('Error with word.')

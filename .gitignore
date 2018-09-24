@@ -152,5 +152,6 @@ sftp-config.json
 # python
 __pycache__
 .idea
-
+.ipynb_checkpoints
 package-lock.json
+.env
