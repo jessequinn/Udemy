@@ -12,4 +12,4 @@ Build 10 real world applications in python.
 * Application 7: Scrape Real Estate Property Data from the Web
 * Application 8: Build a Web-based Financial Graph
 * Application 9: Build a Data Collector Web App with PostGreSQL and Flask
-*
+* Application 10: Student Project on Building a Geocoder Web Service

@@ -5,6 +5,7 @@
 logs
 *.log
 npm-debug.log*
+package-lock.json
 
 # Runtime data
 pids
@@ -32,6 +33,7 @@ node_modules
 
 # Optional npm cache directory
 .npm
+
 
 # Optional REPL history
 .node_repl_history
@@ -151,7 +153,11 @@ sftp-config.json
 
 # python
 __pycache__
-.idea
 .ipynb_checkpoints
-package-lock.json
+
+### intellij ###
+.idea
+
+
+### personaol ###
 .env
