@@ -7,3 +7,7 @@
 2018-09-24 11:05:53.305 -03 [90594] STATEMENT:  INSERT INTO data (email_, height_) VALUES (NULL, NULL) RETURNING data.id
 2018-09-24 11:07:24.870 -03 [90631] ERROR:  relation "data" does not exist at character 13
 2018-09-24 11:07:24.870 -03 [90631] STATEMENT:  INSERT INTO data (email_, height_) VALUES ('test@test.com', '65') RETURNING data.id
+2018-09-26 06:30:22.857 -03 [89780] LOG:  received smart shutdown request
+2018-09-26 06:30:22.858 -03 [89780] LOG:  worker process: logical replication launcher (PID 89787) exited with exit code 1
+2018-09-26 06:30:22.859 -03 [89782] LOG:  shutting down
+2018-09-26 06:30:22.864 -03 [89780] LOG:  database system is shut down
