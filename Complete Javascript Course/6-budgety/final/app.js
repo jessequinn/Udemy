@@ -313,7 +313,7 @@ var UIController = (function() {
         },
         
         
-        displayMonth: function() {
+        displayTime: function() {
             var now, months, month, year;
             
             now = new Date();
