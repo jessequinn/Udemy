@@ -1,0 +1,1 @@
+http://webdev.slides.com/eschoppik/closures-and-the-keyword-this#/

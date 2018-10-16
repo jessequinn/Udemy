@@ -1,0 +1,1 @@
+https://github.com/rithmschool/udemy_course_exercises/blob/solutions/es2015-16-17-part-2/es2015-inheritance/es2015-inheritance-exercises.js

@@ -1,0 +1,80 @@
+<html>
+                <head>
+                <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+                <title>207 ESE5 Promises Assignment</title>
+                </head>
+                <body>
+                <div class="container">
+                <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <p class="lead"><h4>ES2015 Promises Assignment</h4>
+
+<p>1. Write a function called <strong>getMostFollowers</strong>, which accepts a variable number of arguments. You should then make an AJAX call to the Github User API (https://developer.github.com/v3/users/#get-a-single-user) to get the name and number of followers of each argument. The function should return a promise, which when resolved, returns a string which displays the username who has the most followers. </p>
+
+
+
+<p>Hint - Try to use Promise.all to solve this and remember that the jQuery AJAX methods ($.getJSON, $.ajax, etc.) return a promise.</p>
+
+
+
+<pre class="prettyprint linenums">getMostFollowers('elie','tigarcia','colt').then(function(data){
+    console.log(data)
+});
+
+"Colt has the most followers with 424" </pre>
+
+
+
+
+
+<p>2. Write a function called <strong>starWarsString</strong>, which accepts a number. You should then make an AJAX call to the Star Wars API (https://swapi.co/ ) to search for a specific character by the number passed to the function. Your function should return a promise that when resolved will console.log the name of the character.
+</p>
+
+
+
+<pre class="prettyprint linenums">starWarsString(1).then(function(data){
+    console.log(data)
+})
+
+"Luke Skywalker"</pre>
+
+
+
+
+
+
+
+<p><strong>Bonus 1 - </strong> Using the data from the previous AJAX call above, make another AJAX request to get the first film that character is featured in and return a promise that when resolved will console.log the name of the character and the film they are featured in 
+</p>
+
+
+
+<pre class="prettyprint linenums">starWarsString(1).then(function(data){
+    console.log(data)
+})
+
+"Luke Skywalker is featured in The Empire Strikes Back, directed by Irvin Kershner"</pre>
+
+
+
+
+
+
+
+<p><strong>Bonus 2 - </strong> Using the data from Bonus 1 - make another AJAX call to get the information about the first planet that the film contains. Your function should return a promise that when resolved will console.log the name of the character and the film they are featured in and the name of the planet. 
+
+</p>
+
+
+
+<pre class="prettyprint linenums">starWarsString(1).then(function(data){
+    console.log(data)
+})
+
+"Luke Skywalker is featured in The Empire Strikes Back, directed by Irvin Kershner and it takes place on Hoth"</pre></p>
+                </div>
+                </div>
+                </div>
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+                </body>
+                </html>

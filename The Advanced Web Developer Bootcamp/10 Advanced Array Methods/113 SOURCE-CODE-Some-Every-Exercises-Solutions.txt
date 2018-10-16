@@ -1,0 +1,1 @@
+https://github.com/rithmschool/udemy_course_exercises/blob/solutions/advanced-array-methods/some-every/some-every-exercises.js
