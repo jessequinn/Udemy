@@ -1,0 +1,407 @@
+#EXTM3U
+#EXTINF:241,001 The Story Of This Course.mp4
+01%20Course%20Introduction/001%20The%20Story%20Of%20This%20Course.mp4
+#EXTINF:955,002 Curriculum Walkthrough.mp4
+01%20Course%20Introduction/002%20Curriculum%20Walkthrough.mp4
+#EXTINF:149,003 Learning Paths.mp4
+01%20Course%20Introduction/003%20Learning%20Paths.mp4
+#EXTINF:54,004 Introducing the Team.mp4
+01%20Course%20Introduction/004%20Introducing%20the%20Team.mp4
+#EXTINF:42,005 Section Introduction.mp4
+02%20CSS%20Animations%20Transforms%20and%20Transitions/005%20Section%20Introduction.mp4
+#EXTINF:260,006 Introduction To CSS Animations.mp4
+02%20CSS%20Animations%20Transforms%20and%20Transitions/006%20Introduction%20To%20CSS%20Animations.mp4
+#EXTINF:419,007 Why Animations Matter.mp4
+02%20CSS%20Animations%20Transforms%20and%20Transitions/007%20Why%20Animations%20Matter.mp4
+#EXTINF:136,008 Intro To Pseudoclasses.mp4
+02%20CSS%20Animations%20Transforms%20and%20Transitions/008%20Intro%20To%20Pseudoclasses.mp4
+#EXTINF:261,009 Pseudo-Classes Hover.mp4
+02%20CSS%20Animations%20Transforms%20and%20Transitions/009%20Pseudo-Classes%20Hover.mp4
+#EXTINF:211,010 Pseudo-Classes Focus.mp4
+02%20CSS%20Animations%20Transforms%20and%20Transitions/010%20Pseudo-Classes%20Focus.mp4
+#EXTINF:323,011 Pseudo-Classes Active.mp4
+02%20CSS%20Animations%20Transforms%20and%20Transitions/011%20Pseudo-Classes%20Active.mp4
+#EXTINF:0,012 Quick Pseudoclasses Exercise.html
+02%20CSS%20Animations%20Transforms%20and%20Transitions/012%20Quick%20Pseudoclasses%20Exercise.html
+#EXTINF:762,013 Building An Animated Button.mp4
+02%20CSS%20Animations%20Transforms%20and%20Transitions/013%20Building%20An%20Animated%20Button.mp4
+#EXTINF:192,014 Introduction to Transform.mp4
+02%20CSS%20Animations%20Transforms%20and%20Transitions/014%20Introduction%20to%20Transform.mp4
+#EXTINF:367,015 Transform Translate.mp4
+02%20CSS%20Animations%20Transforms%20and%20Transitions/015%20Transform%20Translate.mp4
+#EXTINF:560,016 TransformScale() and Transform-Origin.mp4
+02%20CSS%20Animations%20Transforms%20and%20Transitions/016%20TransformScale%28%29%20and%20Transform-Origin.mp4
+#EXTINF:512,017 Transform Rotate().mp4
+02%20CSS%20Animations%20Transforms%20and%20Transitions/017%20Transform%20Rotate%28%29.mp4
+#EXTINF:244,018 A Note on Vendor Prefixes.mp4
+02%20CSS%20Animations%20Transforms%20and%20Transitions/018%20A%20Note%20on%20Vendor%20Prefixes.mp4
+#EXTINF:338,019 Transitions Basics.mp4
+02%20CSS%20Animations%20Transforms%20and%20Transitions/019%20Transitions%20Basics.mp4
+#EXTINF:472,020 Transition-Duration and Transition-Property.mp4
+02%20CSS%20Animations%20Transforms%20and%20Transitions/020%20Transition-Duration%20and%20Transition-Property.mp4
+#EXTINF:763,021 Transition-Timing-Function and Transition-Delay.mp4
+02%20CSS%20Animations%20Transforms%20and%20Transitions/021%20Transition-Timing-Function%20and%20Transition-Delay.mp4
+#EXTINF:246,022 Transition Shorthand.mp4
+02%20CSS%20Animations%20Transforms%20and%20Transitions/022%20Transition%20Shorthand.mp4
+#EXTINF:328,023 CSS Animation Performance.mp4
+02%20CSS%20Animations%20Transforms%20and%20Transitions/023%20CSS%20Animation%20Performance.mp4
+#EXTINF:845,024 Building An Animated Gallery.mp4
+02%20CSS%20Animations%20Transforms%20and%20Transitions/024%20Building%20An%20Animated%20Gallery.mp4
+#EXTINF:507,025 Introduction to Keyframes.mp4
+03%20CSS%20Animations%20Keyframes/025%20Introduction%20to%20Keyframes.mp4
+#EXTINF:477,026 Codealong Animated Rainbow Flashing Text.mp4
+03%20CSS%20Animations%20Keyframes/026%20Codealong%20Animated%20Rainbow%20Flashing%20Text.mp4
+#EXTINF:698,027 Other CSS Animation Properties.mp4
+03%20CSS%20Animations%20Keyframes/027%20Other%20CSS%20Animation%20Properties.mp4
+#EXTINF:332,028 Exercise Rising and Setting Sun Animation.mp4
+03%20CSS%20Animations%20Keyframes/028%20Exercise%20Rising%20and%20Setting%20Sun%20Animation.mp4
+#EXTINF:701,029 Exercise SOLUTION  Rising and Setting Sun Animation.mp4
+03%20CSS%20Animations%20Keyframes/029%20Exercise%20SOLUTION%20%20Rising%20and%20Setting%20Sun%20Animation.mp4
+#EXTINF:272,030 CSS Animation Shorthand.mp4
+03%20CSS%20Animations%20Keyframes/030%20CSS%20Animation%20Shorthand.mp4
+#EXTINF:743,031 Building an Animated CSS Loading Icon.mp4
+03%20CSS%20Animations%20Keyframes/031%20Building%20an%20Animated%20CSS%20Loading%20Icon.mp4
+#EXTINF:52,032 Section Introduction.mp4
+04%20Advanced%20CSS%20Layout%20With%20Flexbox/032%20Section%20Introduction.mp4
+#EXTINF:321,033 Introduction To Flexbox.mp4
+04%20Advanced%20CSS%20Layout%20With%20Flexbox/033%20Introduction%20To%20Flexbox.mp4
+#EXTINF:200,034 The Magic of Display Flex.mp4
+04%20Advanced%20CSS%20Layout%20With%20Flexbox/034%20The%20Magic%20of%20Display%20Flex.mp4
+#EXTINF:203,035 Important Flexbox Terminology.mp4
+04%20Advanced%20CSS%20Layout%20With%20Flexbox/035%20Important%20Flexbox%20Terminology.mp4
+#EXTINF:258,036 Flex-Direction.mp4
+04%20Advanced%20CSS%20Layout%20With%20Flexbox/036%20Flex-Direction.mp4
+#EXTINF:391,037 Flex-Wrap.mp4
+04%20Advanced%20CSS%20Layout%20With%20Flexbox/037%20Flex-Wrap.mp4
+#EXTINF:486,038 Justify-Content.mp4
+04%20Advanced%20CSS%20Layout%20With%20Flexbox/038%20Justify-Content.mp4
+#EXTINF:241,039 Flexbox Sidebar Exercise.mp4
+04%20Advanced%20CSS%20Layout%20With%20Flexbox/039%20Flexbox%20Sidebar%20Exercise.mp4
+#EXTINF:320,040 Flexbox Sidebar Exercise SOLUTION.mp4
+04%20Advanced%20CSS%20Layout%20With%20Flexbox/040%20Flexbox%20Sidebar%20Exercise%20SOLUTION.mp4
+#EXTINF:507,041 Align-Items.mp4
+04%20Advanced%20CSS%20Layout%20With%20Flexbox/041%20Align-Items.mp4
+#EXTINF:453,042 Align-Content.mp4
+04%20Advanced%20CSS%20Layout%20With%20Flexbox/042%20Align-Content.mp4
+#EXTINF:964,043 Building A Responsive Navbar CODEALONG.mp4
+04%20Advanced%20CSS%20Layout%20With%20Flexbox/043%20Building%20A%20Responsive%20Navbar%20CODEALONG.mp4
+#EXTINF:255,044 Align-Self.mp4
+04%20Advanced%20CSS%20Layout%20With%20Flexbox/044%20Align-Self.mp4
+#EXTINF:316,045 Order.mp4
+04%20Advanced%20CSS%20Layout%20With%20Flexbox/045%20Order.mp4
+#EXTINF:359,046 flex-basis.mp4
+04%20Advanced%20CSS%20Layout%20With%20Flexbox/046%20flex-basis.mp4
+#EXTINF:466,047 flex-grow.mp4
+04%20Advanced%20CSS%20Layout%20With%20Flexbox/047%20flex-grow.mp4
+#EXTINF:504,048 Flex-Shrink.mp4
+04%20Advanced%20CSS%20Layout%20With%20Flexbox/048%20Flex-Shrink.mp4
+#EXTINF:546,049 Building a Polygon.com Widget.mp4
+04%20Advanced%20CSS%20Layout%20With%20Flexbox/049%20Building%20a%20Polygon.com%20Widget.mp4
+#EXTINF:437,050 Exercise Holy Grail Layout.mp4
+04%20Advanced%20CSS%20Layout%20With%20Flexbox/050%20Exercise%20Holy%20Grail%20Layout.mp4
+#EXTINF:858,051 Exercise Holy Grail Layout SOLUTION.mp4
+04%20Advanced%20CSS%20Layout%20With%20Flexbox/051%20Exercise%20Holy%20Grail%20Layout%20SOLUTION.mp4
+#EXTINF:261,052 Flexbox Browser Support.mp4
+04%20Advanced%20CSS%20Layout%20With%20Flexbox/052%20Flexbox%20Browser%20Support.mp4
+#EXTINF:142,053 Introducing Matt.mp4
+05%20Project%20Building%20A%20Startup%20Site/053%20Introducing%20Matt.mp4
+#EXTINF:31,054 Section Introduction.mp4
+05%20Project%20Building%20A%20Startup%20Site/054%20Section%20Introduction.mp4
+#EXTINF:58,055 Project Introduction.mp4
+05%20Project%20Building%20A%20Startup%20Site/055%20Project%20Introduction.mp4
+#EXTINF:102,060 Introducing Tim.mp4
+06%20Async%20Foundations/060%20Introducing%20Tim.mp4
+#EXTINF:46,061 Introduction.mp4
+06%20Async%20Foundations/061%20Introduction.mp4
+#EXTINF:342,062 Callback Functions.mp4
+06%20Async%20Foundations/062%20Callback%20Functions.mp4
+#EXTINF:0,062 example1.js
+06%20Async%20Foundations/062%20example1.js
+#EXTINF:0,062 example2.js
+06%20Async%20Foundations/062%20example2.js
+#EXTINF:0,062 example3.js
+06%20Async%20Foundations/062%20example3.js
+#EXTINF:0,062 example4.js
+06%20Async%20Foundations/062%20example4.js
+#EXTINF:0,062 example5.js
+06%20Async%20Foundations/062%20example5.js
+#EXTINF:0,062 example6.js
+06%20Async%20Foundations/062%20example6.js
+#EXTINF:416,063 Codealong forEach.mp4
+06%20Async%20Foundations/063%20Codealong%20forEach.mp4
+#EXTINF:0,063 forEach-ex1.js
+06%20Async%20Foundations/063%20forEach-ex1.js
+#EXTINF:0,063 forEach-ex2.js
+06%20Async%20Foundations/063%20forEach-ex2.js
+#EXTINF:0,063 forEach-ex3.js
+06%20Async%20Foundations/063%20forEach-ex3.js
+#EXTINF:0,063 forEach-solution.js
+06%20Async%20Foundations/063%20forEach-solution.js
+#EXTINF:346,064 findIndex Exercise Intro.mp4
+06%20Async%20Foundations/064%20findIndex%20Exercise%20Intro.mp4
+#EXTINF:0,064 findIndex-ex1.js
+06%20Async%20Foundations/064%20findIndex-ex1.js
+#EXTINF:0,064 findIndex-ex2.js
+06%20Async%20Foundations/064%20findIndex-ex2.js
+#EXTINF:0,064 findIndex-ex3.js
+06%20Async%20Foundations/064%20findIndex-ex3.js
+#EXTINF:0,064 findIndex-ex4.js
+06%20Async%20Foundations/064%20findIndex-ex4.js
+#EXTINF:116,065 findIndex Solution.mp4
+06%20Async%20Foundations/065%20findIndex%20Solution.mp4
+#EXTINF:0,065 findIndex-solution.js
+06%20Async%20Foundations/065%20findIndex-solution.js
+#EXTINF:436,066 The Stack And The Heap.mp4
+06%20Async%20Foundations/066%20The%20Stack%20And%20The%20Heap.mp4
+#EXTINF:0,066 the-stack-and-the-heap-ex1.js
+06%20Async%20Foundations/066%20the-stack-and-the-heap-ex1.js
+#EXTINF:331,067 The Stack An Example.mp4
+06%20Async%20Foundations/067%20The%20Stack%20An%20Example.mp4
+#EXTINF:0,067 stack-example.js
+06%20Async%20Foundations/067%20stack-example.js
+#EXTINF:318,068 setTimeout and setInterval.mp4
+06%20Async%20Foundations/068%20setTimeout%20and%20setInterval.mp4
+#EXTINF:149,069 countDown Exercise Solution.mp4
+06%20Async%20Foundations/069%20countDown%20Exercise%20Solution.mp4
+#EXTINF:475,070 The Event Loop And The Queue.mp4
+06%20Async%20Foundations/070%20The%20Event%20Loop%20And%20The%20Queue.mp4
+#EXTINF:415,071 Promise Basics.mp4
+06%20Async%20Foundations/071%20Promise%20Basics.mp4
+#EXTINF:567,072 Promise Chaining.mp4
+06%20Async%20Foundations/072%20Promise%20Chaining.mp4
+#EXTINF:549,073 Intro to AJAX.mp4
+07%20AJAX%20Part%201%20XHR%20and%20Fetch/073%20Intro%20to%20AJAX.mp4
+#EXTINF:481,074 Whats the deal with JSON and XML.mp4
+07%20AJAX%20Part%201%20XHR%20and%20Fetch/074%20Whats%20the%20deal%20with%20JSON%20and%20XML.mp4
+#EXTINF:729,075 Making Our First Request with XMLHTTPRequest.mp4
+07%20AJAX%20Part%201%20XHR%20and%20Fetch/075%20Making%20Our%20First%20Request%20with%20XMLHTTPRequest.mp4
+#EXTINF:731,076 AJAX Workflow Building The Random Image App.mp4
+07%20AJAX%20Part%201%20XHR%20and%20Fetch/076%20AJAX%20Workflow%20Building%20The%20Random%20Image%20App.mp4
+#EXTINF:207,077 Bitcoin Price Exercise.mp4
+07%20AJAX%20Part%201%20XHR%20and%20Fetch/077%20Bitcoin%20Price%20Exercise.mp4
+#EXTINF:397,078 Bitcoin Price Exercise Solution.mp4
+07%20AJAX%20Part%201%20XHR%20and%20Fetch/078%20Bitcoin%20Price%20Exercise%20Solution.mp4
+#EXTINF:559,079 Fetch Introduction.mp4
+07%20AJAX%20Part%201%20XHR%20and%20Fetch/079%20Fetch%20Introduction.mp4
+#EXTINF:248,080 Fetch Options.mp4
+07%20AJAX%20Part%201%20XHR%20and%20Fetch/080%20Fetch%20Options.mp4
+#EXTINF:587,081 Fetch Error Handling.mp4
+07%20AJAX%20Part%201%20XHR%20and%20Fetch/081%20Fetch%20Error%20Handling.mp4
+#EXTINF:182,082 Fetch Random User Profile Exercise.mp4
+07%20AJAX%20Part%201%20XHR%20and%20Fetch/082%20Fetch%20Random%20User%20Profile%20Exercise.mp4
+#EXTINF:908,083 Fetch Random User Profile Exercise Solution.mp4
+07%20AJAX%20Part%201%20XHR%20and%20Fetch/083%20Fetch%20Random%20User%20Profile%20Exercise%20Solution.mp4
+#EXTINF:56,084 The Problem With Fetch.mp4
+07%20AJAX%20Part%201%20XHR%20and%20Fetch/084%20The%20Problem%20With%20Fetch.mp4
+#EXTINF:256,085 jQuery AJAX Introduction.mp4
+08%20AJAX%20Part%202%20jQuery%20and%20Axios/085%20jQuery%20AJAX%20Introduction.mp4
+#EXTINF:469,086 jQuery .ajax Method.mp4
+08%20AJAX%20Part%202%20jQuery%20and%20Axios/086%20jQuery%20.ajax%20Method.mp4
+#EXTINF:104,087 Digging In The jQuery Sourcecode.mp4
+08%20AJAX%20Part%202%20jQuery%20and%20Axios/087%20Digging%20In%20The%20jQuery%20Sourcecode.mp4
+#EXTINF:468,088 jQuery AJAX Shorthand Methods.mp4
+08%20AJAX%20Part%202%20jQuery%20and%20Axios/088%20jQuery%20AJAX%20Shorthand%20Methods.mp4
+#EXTINF:97,089 jQuery Random Cats API Exercise.mp4
+08%20AJAX%20Part%202%20jQuery%20and%20Axios/089%20jQuery%20Random%20Cats%20API%20Exercise.mp4
+#EXTINF:239,090 jQuery Random Cats Exercise SOLUTION.mp4
+08%20AJAX%20Part%202%20jQuery%20and%20Axios/090%20jQuery%20Random%20Cats%20Exercise%20SOLUTION.mp4
+#EXTINF:347,091 Axios Intro.mp4
+08%20AJAX%20Part%202%20jQuery%20and%20Axios/091%20Axios%20Intro.mp4
+#EXTINF:242,092 Axios Error Handling.mp4
+08%20AJAX%20Part%202%20jQuery%20and%20Axios/092%20Axios%20Error%20Handling.mp4
+#EXTINF:129,093 Ron Swanson Exercise.mp4
+08%20AJAX%20Part%202%20jQuery%20and%20Axios/093%20Ron%20Swanson%20Exercise.mp4
+#EXTINF:590,094 Ron Swanson Exercise Solution.mp4
+08%20AJAX%20Part%202%20jQuery%20and%20Axios/094%20Ron%20Swanson%20Exercise%20Solution.mp4
+#EXTINF:107,095 Introducing Elie.mp4
+09%20Testing%20With%20Jasmine/095%20Introducing%20Elie.mp4
+#EXTINF:76,096 Section Introduction.mp4
+09%20Testing%20With%20Jasmine/096%20Section%20Introduction.mp4
+#EXTINF:187,097 Writing Tests in the Browser.mp4
+09%20Testing%20With%20Jasmine/097%20Writing%20Tests%20in%20the%20Browser.mp4
+#EXTINF:474,098 Jasmine Syntax and Matchers.mp4
+09%20Testing%20With%20Jasmine/098%20Jasmine%20Syntax%20and%20Matchers.mp4
+#EXTINF:268,099 Writing Better tests with Hooks.mp4
+09%20Testing%20With%20Jasmine/099%20Writing%20Better%20tests%20with%20Hooks.mp4
+#EXTINF:233,100 Spies.mp4
+09%20Testing%20With%20Jasmine/100%20Spies.mp4
+#EXTINF:259,101 Clocks.mp4
+09%20Testing%20With%20Jasmine/101%20Clocks.mp4
+#EXTINF:143,102 TDD and BDD.mp4
+09%20Testing%20With%20Jasmine/102%20TDD%20and%20BDD.mp4
+#EXTINF:208,103 Different Types of Tests.mp4
+09%20Testing%20With%20Jasmine/103%20Different%20Types%20of%20Tests.mp4
+#EXTINF:60,104 Section Introduction.mp4
+10%20Advanced%20Array%20Methods/104%20Section%20Introduction.mp4
+#EXTINF:248,105 forEach.mp4
+10%20Advanced%20Array%20Methods/105%20forEach.mp4
+#EXTINF:190,106 Exercise SOLUTION forEach.mp4
+10%20Advanced%20Array%20Methods/106%20Exercise%20SOLUTION%20forEach.mp4
+#EXTINF:264,107 map.mp4
+10%20Advanced%20Array%20Methods/107%20map.mp4
+#EXTINF:95,108 Exercise SOLUTION Map.mp4
+10%20Advanced%20Array%20Methods/108%20Exercise%20SOLUTION%20Map.mp4
+#EXTINF:336,109 Filter.mp4
+10%20Advanced%20Array%20Methods/109%20Filter.mp4
+#EXTINF:144,110 Exercise SOLUTION Filter.mp4
+10%20Advanced%20Array%20Methods/110%20Exercise%20SOLUTION%20Filter.mp4
+#EXTINF:227,111 Some.mp4
+10%20Advanced%20Array%20Methods/111%20Some.mp4
+#EXTINF:197,112 Every.mp4
+10%20Advanced%20Array%20Methods/112%20Every.mp4
+#EXTINF:124,113 Exercise SOLUTION Some and Every.mp4
+10%20Advanced%20Array%20Methods/113%20Exercise%20SOLUTION%20Some%20and%20Every.mp4
+#EXTINF:296,114 Reduce.mp4
+10%20Advanced%20Array%20Methods/114%20Reduce.mp4
+#EXTINF:315,115 Reduce Continued.mp4
+10%20Advanced%20Array%20Methods/115%20Reduce%20Continued.mp4
+#EXTINF:149,116 Exercise SOLUTION Reduce.mp4
+10%20Advanced%20Array%20Methods/116%20Exercise%20SOLUTION%20Reduce.mp4
+#EXTINF:135,117 Array Methods Recap.mp4
+10%20Advanced%20Array%20Methods/117%20Array%20Methods%20Recap.mp4
+#EXTINF:58,118 Section Introduction.mp4
+11%20Closures%20and%20the%20Keyword%20this/118%20Section%20Introduction.mp4
+#EXTINF:262,119 Introduction to Closures.mp4
+11%20Closures%20and%20the%20Keyword%20this/119%20Introduction%20to%20Closures.mp4
+#EXTINF:265,120 Using Closures in the Wild.mp4
+11%20Closures%20and%20the%20Keyword%20this/120%20Using%20Closures%20in%20the%20Wild.mp4
+#EXTINF:128,121 Exercise SOLUTION Closures.mp4
+11%20Closures%20and%20the%20Keyword%20this/121%20Exercise%20SOLUTION%20Closures.mp4
+#EXTINF:73,122 Closures Recap.mp4
+11%20Closures%20and%20the%20Keyword%20this/122%20Closures%20Recap.mp4
+#EXTINF:181,123 Introduction to the Keyword this.mp4
+11%20Closures%20and%20the%20Keyword%20this/123%20Introduction%20to%20the%20Keyword%20this.mp4
+#EXTINF:256,124 this with Functions and use strict.mp4
+11%20Closures%20and%20the%20Keyword%20this/124%20this%20with%20Functions%20and%20use%20strict.mp4
+#EXTINF:294,125 ObjectImplicit Binding.mp4
+11%20Closures%20and%20the%20Keyword%20this/125%20ObjectImplicit%20Binding.mp4
+#EXTINF:240,126 Explicit Binding.mp4
+11%20Closures%20and%20the%20Keyword%20this/126%20Explicit%20Binding.mp4
+#EXTINF:259,127 Call.mp4
+11%20Closures%20and%20the%20Keyword%20this/127%20Call.mp4
+#EXTINF:150,128 Apply.mp4
+11%20Closures%20and%20the%20Keyword%20this/128%20Apply.mp4
+#EXTINF:168,129 Bind.mp4
+11%20Closures%20and%20the%20Keyword%20this/129%20Bind.mp4
+#EXTINF:203,130 Bind Continued.mp4
+11%20Closures%20and%20the%20Keyword%20this/130%20Bind%20Continued.mp4
+#EXTINF:296,131 Exercise SOLUTIONS Call Apply Bind.mp4
+11%20Closures%20and%20the%20Keyword%20this/131%20Exercise%20SOLUTIONS%20Call%20Apply%20Bind.mp4
+#EXTINF:160,132 The new Keyword and section recap.mp4
+11%20Closures%20and%20the%20Keyword%20this/132%20The%20new%20Keyword%20and%20section%20recap.mp4
+#EXTINF:79,133 Section Introduction.mp4
+12%20Object%20Oriented%20Programming%20with%20JavaScript/133%20Section%20Introduction.mp4
+#EXTINF:184,134 Introduction to Object Oriented Programming with JavaScript.mp4
+12%20Object%20Oriented%20Programming%20with%20JavaScript/134%20Introduction%20to%20Object%20Oriented%20Programming%20with%20JavaScript.mp4
+#EXTINF:245,135 The new Keyword.mp4
+12%20Object%20Oriented%20Programming%20with%20JavaScript/135%20The%20new%20Keyword.mp4
+#EXTINF:276,136 Refactoring with Multiple Constructors.mp4
+12%20Object%20Oriented%20Programming%20with%20JavaScript/136%20Refactoring%20with%20Multiple%20Constructors.mp4
+#EXTINF:78,137 Constructor Functions Recap.mp4
+12%20Object%20Oriented%20Programming%20with%20JavaScript/137%20Constructor%20Functions%20Recap.mp4
+#EXTINF:137,138 Exercise SOLUTION Constructor Functions.mp4
+12%20Object%20Oriented%20Programming%20with%20JavaScript/138%20Exercise%20SOLUTION%20Constructor%20Functions.mp4
+#EXTINF:229,139 Introduction to Prototypes.mp4
+12%20Object%20Oriented%20Programming%20with%20JavaScript/139%20Introduction%20to%20Prototypes.mp4
+#EXTINF:225,140 The Prototype Chain.mp4
+12%20Object%20Oriented%20Programming%20with%20JavaScript/140%20The%20Prototype%20Chain.mp4
+#EXTINF:179,141 Adding Methods to the Prototype.mp4
+12%20Object%20Oriented%20Programming%20with%20JavaScript/141%20Adding%20Methods%20to%20the%20Prototype.mp4
+#EXTINF:258,142 Exercise SOLUTIONS Prototypes.mp4
+12%20Object%20Oriented%20Programming%20with%20JavaScript/142%20Exercise%20SOLUTIONS%20Prototypes.mp4
+#EXTINF:313,143 Prototypal Inheritance.mp4
+12%20Object%20Oriented%20Programming%20with%20JavaScript/143%20Prototypal%20Inheritance.mp4
+#EXTINF:89,144 Exercise SOLUTIONS Inheritance.mp4
+12%20Object%20Oriented%20Programming%20with%20JavaScript/144%20Exercise%20SOLUTIONS%20Inheritance.mp4
+#EXTINF:82,145 Object Oriented Programming Recap.mp4
+12%20Object%20Oriented%20Programming%20with%20JavaScript/145%20Object%20Oriented%20Programming%20Recap.mp4
+#EXTINF:47,146 Section Introduction.mp4
+13%20Creating%20JSON%20APIs%20With%20Node%20and%20Mongo/146%20Section%20Introduction.mp4
+#EXTINF:235,147 Preparing For React.mp4
+13%20Creating%20JSON%20APIs%20With%20Node%20and%20Mongo/147%20Preparing%20For%20React.mp4
+#EXTINF:159,148 Defining Our API Gameplan.mp4
+13%20Creating%20JSON%20APIs%20With%20Node%20and%20Mongo/148%20Defining%20Our%20API%20Gameplan.mp4
+#EXTINF:0,149 SUPER IMPORTANT UPDATED C9 INSTALLATION INSTRUCTIONS.html
+13%20Creating%20JSON%20APIs%20With%20Node%20and%20Mongo/149%20SUPER%20IMPORTANT%20UPDATED%20C9%20INSTALLATION%20INSTRUCTIONS.html
+#EXTINF:304,150 Installing NodeJS.mp4
+13%20Creating%20JSON%20APIs%20With%20Node%20and%20Mongo/150%20Installing%20NodeJS.mp4
+#EXTINF:0,151 Cloud9 Without A Credit Card Instructions.html
+13%20Creating%20JSON%20APIs%20With%20Node%20and%20Mongo/151%20Cloud9%20Without%20A%20Credit%20Card%20Instructions.html
+#EXTINF:0,152 Installing Node Locally.html
+13%20Creating%20JSON%20APIs%20With%20Node%20and%20Mongo/152%20Installing%20Node%20Locally.html
+#EXTINF:420,153 Creating Our Initial Express Application.mp4
+13%20Creating%20JSON%20APIs%20With%20Node%20and%20Mongo/153%20Creating%20Our%20Initial%20Express%20Application.mp4
+#EXTINF:187,154 Responding With JSON.mp4
+13%20Creating%20JSON%20APIs%20With%20Node%20and%20Mongo/154%20Responding%20With%20JSON.mp4
+#EXTINF:277,155 Installing Mongo.mp4
+13%20Creating%20JSON%20APIs%20With%20Node%20and%20Mongo/155%20Installing%20Mongo.mp4
+#EXTINF:452,156 Defining Our Schema.mp4
+13%20Creating%20JSON%20APIs%20With%20Node%20and%20Mongo/156%20Defining%20Our%20Schema.mp4
+#EXTINF:523,157 Defining The Index Route.mp4
+13%20Creating%20JSON%20APIs%20With%20Node%20and%20Mongo/157%20Defining%20The%20Index%20Route.mp4
+#EXTINF:489,158 Defining The Create Route.mp4
+13%20Creating%20JSON%20APIs%20With%20Node%20and%20Mongo/158%20Defining%20The%20Create%20Route.mp4
+#EXTINF:260,159 Defining The Show Route.mp4
+13%20Creating%20JSON%20APIs%20With%20Node%20and%20Mongo/159%20Defining%20The%20Show%20Route.mp4
+#EXTINF:266,160 Defining the Update Route.mp4
+13%20Creating%20JSON%20APIs%20With%20Node%20and%20Mongo/160%20Defining%20the%20Update%20Route.mp4
+#EXTINF:182,161 Defining the Delete Route.mp4
+13%20Creating%20JSON%20APIs%20With%20Node%20and%20Mongo/161%20Defining%20the%20Delete%20Route.mp4
+#EXTINF:452,162 Refactoring Our API.mp4
+13%20Creating%20JSON%20APIs%20With%20Node%20and%20Mongo/162%20Refactoring%20Our%20API.mp4
+#EXTINF:188,163 Introducing Our Single Page App.mp4
+14%20Codealong%20Single%20Page%20Todo%20List%20with%20Express%20Mongo%20and%20jQuery/163%20Introducing%20Our%20Single%20Page%20App.mp4
+#EXTINF:394,164 Serving Static Files and Nodemon.mp4
+14%20Codealong%20Single%20Page%20Todo%20List%20with%20Express%20Mongo%20and%20jQuery/164%20Serving%20Static%20Files%20and%20Nodemon.mp4
+#EXTINF:262,165 Adding jQuery and The Starter CSS.mp4
+14%20Codealong%20Single%20Page%20Todo%20List%20with%20Express%20Mongo%20and%20jQuery/165%20Adding%20jQuery%20and%20The%20Starter%20CSS.mp4
+#EXTINF:483,166 Writing The Initial AJAX Call.mp4
+14%20Codealong%20Single%20Page%20Todo%20List%20with%20Express%20Mongo%20and%20jQuery/166%20Writing%20The%20Initial%20AJAX%20Call.mp4
+#EXTINF:167,167 Displaying Our Todos Correctly.mp4
+14%20Codealong%20Single%20Page%20Todo%20List%20with%20Express%20Mongo%20and%20jQuery/167%20Displaying%20Our%20Todos%20Correctly.mp4
+#EXTINF:590,168 Connecting the Form to our API.mp4
+14%20Codealong%20Single%20Page%20Todo%20List%20with%20Express%20Mongo%20and%20jQuery/168%20Connecting%20the%20Form%20to%20our%20API.mp4
+#EXTINF:869,169 Making the Delete Button Work.mp4
+14%20Codealong%20Single%20Page%20Todo%20List%20with%20Express%20Mongo%20and%20jQuery/169%20Making%20the%20Delete%20Button%20Work.mp4
+#EXTINF:843,170 Toggling Todo Completion.mp4
+14%20Codealong%20Single%20Page%20Todo%20List%20with%20Express%20Mongo%20and%20jQuery/170%20Toggling%20Todo%20Completion.mp4
+#EXTINF:80,171 Section Introduction.mp4
+15%20ESE5%20Part%20I/171%20Section%20Introduction.mp4
+#EXTINF:177,172 Introduction to ESE5.mp4
+15%20ESE5%20Part%20I/172%20Introduction%20to%20ESE5.mp4
+#EXTINF:145,173 Const.mp4
+15%20ESE5%20Part%20I/173%20Const.mp4
+#EXTINF:275,174 Let.mp4
+15%20ESE5%20Part%20I/174%20Let.mp4
+#EXTINF:87,175 Template Strings.mp4
+15%20ESE5%20Part%20I/175%20Template%20Strings.mp4
+#EXTINF:142,176 Introduction to Arrow Functions.mp4
+15%20ESE5%20Part%20I/176%20Introduction%20to%20Arrow%20Functions.mp4
+#EXTINF:329,177 Arrow Functions Continued.mp4
+15%20ESE5%20Part%20I/177%20Arrow%20Functions%20Continued.mp4
+#EXTINF:119,178 Exercise SOLUTION Arrow Functions.mp4
+15%20ESE5%20Part%20I/178%20Exercise%20SOLUTION%20Arrow%20Functions.mp4
+#EXTINF:99,179 Default Parameters.mp4
+15%20ESE5%20Part%20I/179%20Default%20Parameters.mp4
+#EXTINF:123,180 For...of Loops.mp4
+15%20ESE5%20Part%20I/180%20For...of%20Loops.mp4
+#EXTINF:148,181 Rest.mp4
+15%20ESE5%20Part%20I/181%20Rest.mp4
+#EXTINF:144,182 Spread.mp4
+15%20ESE5%20Part%20I/182%20Spread.mp4
+#EXTINF:200,183 Exercise SOLUTION Rest and Spread.mp4
+15%20ESE5%20Part%20I/183%20Exercise%20SOLUTION%20Rest%20and%20Spread.mp4
+#EXTINF:123,184 Object Enhancements.mp4
+15%20ESE5%20Part%20I/184%20Object%20Enhancements.mp4
+#EXTINF:278,185 Object Destructuring.mp4
+15%20ESE5%20Part%20I/185%20Object%20Destructuring.mp4
+#EXTINF:134,186 Array Destructuring.mp4
+15%20ESE5%20Part%20I/186%20Array%20Destructuring.mp4
+#EXTINF:150,187 Exercise SOLUTION Destructuring.mp4
+15%20ESE5%20Part%20I/187%20Exercise%20SOLUTION%20Destructuring.mp4
+#EXTINF:86,188 ESE5 Part I Recap.mp4
+15%20ESE5%20Part%20I/188%20ESE5%20Part%20I%20Recap.mp4
+#EXTINF:46,189 Section Introduction.mp4
+16%20ESE5%20Project%20-%20Guess%20the%20Password/189%20Section%20Introduction.mp4
+#EXTINF:101,190 Introduction to Guess the Password.mp4
+16%20ESE5%20Project%20-%20Guess%20the%20Password/190%20Introduction%20to%20Guess%20the%20Password.mp4
